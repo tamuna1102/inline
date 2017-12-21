@@ -1,0 +1,14 @@
+/* header */
+.logo{
+	width: 100px;
+	display: inline-block;
+}
+.navogation{
+	display: inline-block;
+}
+.social-icon li a{
+	width: 40px;
+	display: inline-block;
+}
+
+/* header */
