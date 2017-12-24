@@ -1,14 +1,201 @@
 /* header */
-.logo{
-	width: 100px;
+.header {
+	display: flex;
+	width: 1366px;
+	align-items: center;
+	justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+.logo {
+	width: 198px;
 	display: inline-block;
 }
-.navogation{
-	display: inline-block;
+.header ul{
+	display: flex;
 }
-.social-icon li a{
-	width: 40px;
-	display: inline-block;
+.navigation-ul li{
+	font-size: 24px;
+	font-family: 'Roboto';
+	margin-left: 30px;
+	text-transform: uppercase;
+}
+.header ul li.active a{
+	color: #849AD3;
+}
+.header ul li a{
+	color: #3D58A6;
+	text-decoration: none;
+}
+.navigationsocial ul li a img{
+	height: 30px;
+	border-right: 2px solid;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.navigationsocial{
+	margin-left: 150px;
+}
+/* header */
+/*header after*/
+.section{
+	background-color: #BDCCD4;
+	line-height: 90px;
 }
 
-/* header */
+.new{
+	font-family: Roboto;
+	font-size: 22px;
+	text-transform:uppercase;
+	color: white;
+	margin-left: 100px;
+}
+.news {
+	color: blue;
+}
+.see a{
+	color: white;
+	font-size: 22px;
+	text-transform: lowercase;
+	float: right;
+	margin-right: 100px;
+
+}
+.clear {
+	clear: both;
+}
+
+/*header after*/
+
+.date{
+    display: inline-block;
+    border: 2px solid #BDCCD4;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.tarigi{
+	font-size: 34px;
+	color: #363E97;
+}
+.tve{
+	font-size: 12px;
+	color: #363E97;
+	text-transform: uppercase;
+}
+.lab{
+	color: #363E97;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-left: 100px;
+	font-family: Roboto;
+	margin-bottom: 30px;
+}
+.suratitext{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+}
+.typography{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 50px;
+}
+.lorem{
+	font-size: 20px;
+	font-family: Roboto;
+
+}
+.carieli{
+	height: 30px;
+}
+.go a{
+	color: white;
+	font-size: 22px;
+	margin-left: 100px;
+	float: left;
+}
+.section img{
+	height: 20px;
+	margin-right: 10px;
+}
+.share{
+	margin-right:90px;
+	float: right;
+}
+.feature {
+	background-color: #E6E6E6;
+	height: 344px;
+
+}
+.feature h2{
+	padding-bottom: 35px;
+	padding-top: 30px;
+	font-family: Roboto;
+	padding-left: 100px;
+	font-size: 24px;
+}
+.feat{
+	text-transform: uppercase;
+}
+h3{
+	font-size: 22px;
+	font-family: Roboto;
+	color: blue;
+	text-transform: uppercase;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 25px
+}
+.titi{
+	width: 100px;
+	margin-left: 40px;
+	margin-right: 55px;
+	margin-bottom: 40px;
+}
+.container-pirveli{
+	background-color: #F2F2F2;
+	margin-left: 100px;
+	width: 570px;
+	display: inline-block;
+	height: 225px;
+}
+.text{
+	display: inline-block;
+	font-size: 20px;
+	font-family: Roboto;
+	width: 340px;
+	vertical-align: top;
+	line-height: 25px;
+}
+.handy{
+	width: 85px;
+	margin-left: 65px;
+	margin-right: 55px;
+	margin-bottom: 40px;
+}
+.meore{
+	background-color: #F2F2F2;
+	width: 570px;
+	height: 225px;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+/*footer*/
+.footer{
+	height: 60px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.footer-left{
+	float: left;
+	line-height: 60px;
+}
+.footer-right{
+	float: right;
+	line-height: 60px;
+}
+/*footer*/
